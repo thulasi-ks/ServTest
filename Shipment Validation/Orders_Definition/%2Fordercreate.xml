@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="/ordercreate" path="/ordercreate" id="de94ca35-55f1-43d5-b7f5-fd15dbaa4b0c" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="de94ca35-55f1-43d5-b7f5-fd15dbaa4b0cfileName">%2Fordercreate</con:setting></con:settings><con:parameters/><con:method name="createOrderUsingPOST" id="3d087e77-f9cb-4ae9-a155-9be2fc676911" method="POST"><con:description>
+createOrder</con:description><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/><con:sampleContent>{
+  "deliveryDate" : "2015-07-20",
+  "orderLine" : [ {
+    "imageUrl" : "string",
+    "itemId" : "string",
+    "ordereQty" : 0,
+    "reqShipDate" : "string",
+    "retailPrice" : 1.100000023841858,
+    "statusDate" : "string"
+  } ]
+}</con:sampleContent></con:representation><con:representation type="RESPONSE"><con:mediaType>*/*</con:mediaType><con:status>200</con:status><con:params/><con:sampleContent xsi:nil="true"/></con:representation><con:representation type="RESPONSE"><con:mediaType>*/*</con:mediaType><con:status>201</con:status><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>*/*</con:mediaType><con:status>401</con:status><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>*/*</con:mediaType><con:status>403</con:status><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>*/*</con:mediaType><con:status>404</con:status><con:params/></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="d0be5a1f-8b6e-4e19-b017-dcf0e5569a2f" mediaType="application/json"><con:settings/><con:endpoint>http://orders-api.cfapps.io</con:endpoint><con:request>{\r
+  "deliveryDate" : "2015-07-20",\r
+  "orderLine" : [ {\r
+    "imageUrl" : "string",\r
+    "itemId" : "string",\r
+    "ordereQty" : 0,\r
+    "reqShipDate" : "string",\r
+    "retailPrice" : 1.100000023841858,\r
+    "statusDate" : "string"\r
+  } ]\r
+}</con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method></con:resource>

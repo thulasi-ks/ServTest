@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="4c08e042-1d07-4f06-92f9-106bd8c54fb6" name="TestSuite_Create Items API" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="4c08e042-1d07-4f06-92f9-106bd8c54fb6fileName">TestSuite_Create-Items-API</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:properties><con:property><con:name>quantity</con:name><con:value/></con:property></con:properties><con:reportParameters/></con:testSuite>
