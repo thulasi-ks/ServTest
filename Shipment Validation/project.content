@@ -9,7 +9,6 @@ Orders_Definition\%2Forderdeletion%2F%7BorderId%7D.xml
 Orders_Definition\%2Forderstatus%2F.xml
 TestSuite_Create-Items-API\FED-9.xml
 TestSuite_Create-Items-API\FED-10.xml
-TestSuite_Create-Items-API\FED-9_SV.xml
 FED-10_LoadTest.xml
 Api-Documentation-Virtual-Service\%2Ferror.xml
 Api-Documentation-Virtual-Service\%2Ferror1.xml
